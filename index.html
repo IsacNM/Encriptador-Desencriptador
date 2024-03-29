@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="recursos/Logo.svg">  
+    <title>Encriptador-INM</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="recursos/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedorPrincipal">
+                <h1>Encriptador de texto.</h1>
+                <textarea class="cajaTexto" placeholder="Ingrese el texto aqui..."></textarea>
+            </div>
+            <div class="alerta">
+                <img src="recursos/alerta.svg" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos. Por favor.</p>
+            </div>
+            <div class="contenedorBotones">
+                <input type="button" class="encriptarBtn" value="Encriptar">
+                <input type="button" class="desencriptarBtn" value="Desencriptar">
+            </div>
+        </section>
+        <section  class="seccion2">
+            <div class="contenedorPersonaje">
+                <img src="recursos/personaje.svg" alt="personaje"> 
+            </div>
+            <div class="parrafo">
+                <h3>Ningún mensaje fue <br> encontrado.</h3>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="contenedorCopiar">
+                <input type="button" class="copiarBtn" value="Copiar"> 
+            </div>
+            <div class="resultado">
+                <p class="resultado-texto"></p>
+            </div>
+        </section>
+        <footer>
+            <p>Proyecto realizado por Isac NM. 2024.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
